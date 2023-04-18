@@ -1,0 +1,37 @@
+GET http://localhost:3000/players/
+###
+
+
+GET http://localhost:3000/players/1/
+###
+
+
+POST http://localhost:3000/players/
+Content-Type : application/json
+
+{
+    "playerName" : "Ramya",
+    "jerseyNumber" : 7,
+    "role": "All-rounder"
+}
+###
+
+PUT http://localhost:3000/players/2
+Content-Type : application/json
+
+{
+    "playerName" : "Ramya",
+    "jerseyNumber" : 7,
+    "role": "All-rounder"
+}
+###
+
+DELETE http://localhost:3000/players/1
+
+
+
+
+
+
+
+
